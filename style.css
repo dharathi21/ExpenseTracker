@@ -76,7 +76,7 @@ body{
 }
 #second-body{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 400px 700px;
 
 }
 #form-div{
@@ -84,16 +84,18 @@ body{
     border-radius: 20px;
     padding: 5px;
     background-color: rgb(41, 98, 149);
+    background-color: #1d1d53;
 }
 #form h6{
      font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
      font-size: 18px;
-     margin-top: 20px;
+     margin-top: 30px;
      margin-left: 25px;
      line-height: 0;
       margin-bottom: 2px;
       padding: 0;
 }
+
 #form small{
     line-height: 3;
   margin-left: 25px;
@@ -101,13 +103,71 @@ body{
 #form-inside{
     line-height: 2;
     margin-left: 25px;
+    
+}
+#form i{
+    font-size: 16px;
+    color: black;
+  margin-left: 320px;
+  background-color: rgb(126, 241, 195);
+  border-radius: 40px;
+  padding: 5px;
+ 
 }
 #form label{
-    margin-top: 40px;
+    margin-top: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+     color: rgb(231, 231, 250);
 }
 #form input{
     border: 1px solid rgb(196, 169, 169);
-    border-radius: 10px;
-    width:300px;
-    height:30px;
+    border-radius: 30px;
+    width:330px;
+    height:25px;
+    padding: 15px;
+    background-color: #101046;
+    color: rgb(207, 207, 236);
+    font-size: 17px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+#form input:focus{
+    border: 1px solid white;
+}
+#selector{
+  display: flex;
+  gap: 20px;
+}
+select{
+    margin-left: 0;
+    margin-top: 30px;
+    height:auto;
+    width: 90px;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    background-color: #1a1a4b;
+    
+}
+select:focus{
+    border: 1px solid white;
+}
+select option{
+    background-color:rgb(27, 161, 184);
+    color:black;
+    background-color: #1a1a4b;
+    padding:10px;
+    color: white;
+}
+textarea{
+    width: 330px;
+    height: 50px;
+    padding: 15px;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     background-color: #101046;
+     border-radius: 20px;
+    color: rgb(207, 207, 236);
+
+}
+

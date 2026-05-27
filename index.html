@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+       
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
          integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
           crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -50,18 +51,20 @@
         <div id="second-body" >
             <div id="form-div">
             <form id="form">
-                <h6>Add transaction</h6>
+                
+                <h6 ><i class="fa-solid fa-circle-plus"></i> Add transaction</h6>
                 <small>Track every rupee in seconds</small>
                 <div id="form-inside">
                <label >Amount</label> <br>
                <input type="text" required><br>
-               <label>Type</label><br>
+               <div id="selector">
+               <label >Type</label>
                <select type="text">
                 <option type="text">Expense</option>
                  <option type="text">Income</option>
-               </select><br>
-               <label>Category</label><br>
-               <select type="text">
+               </select>
+               <label>Category</label>
+               <select  type="text">
                 <option type="text">Food</option>
                  <option type="text">Salary</option>
                   <option type="text">Travel</option>
@@ -69,7 +72,7 @@
                     <option type="text">Education</option>
                      <option type="text">Bills</option>
                      <option type="text">Others</option>
-               </select><br>
+               </select><br></div>
                <label>Date</label><br>
                <input type="date" required><br>
                <label>Description</label><br>
